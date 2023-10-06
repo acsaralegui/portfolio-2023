@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import  AboutSection  from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
 import EmailSection from './components/EmailSection';
+import Footer from './components/Footer';
 
 <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" sizes="32x32" />
 
@@ -16,7 +17,9 @@ export default function Home() {
           <AboutSection />
           <ProjectsSection />
           <EmailSection />
+          
       </div>
+      <Footer />
     </main>
   )
 }
