@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Portfolio 2023",
+    description: "React Portfolio Website",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/acsaralegui/portfolio-2023",
+    previewUrl: "https://aaronsaralegui.com",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "ProjectAlpha",
+    description: "Bloggers Aplication",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "RoR"],
+    gitUrl: "https://github.com/acsaralegui/project_april",
+    previewUrl: "https://projectapril.herokuapp.com",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Social media Application",
+    description: "An Instagram clone",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "RoR"],
+    gitUrl: "https://github.com/acsaralegui/grammable",
+    previewUrl: "https://grammable-eb70b4970752.herokuapp.com",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Foodiess Application",
+    description: "Yelp Clone",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "RoR"],
+    gitUrl: "https://github.com/acsaralegui/foodiess",
+    previewUrl: "https://foodies-2023-d8fcdc282358.herokuapp.com",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Flashback",
+    description: "An interactive flash cards app.",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/acsaralegui/Flashback",
+    previewUrl: "https://acsaralegui.github.io/Flashback/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "ROBOFRIENDS",
+    description: "A friendly social media card app that uses https://robohash.org/ to gather images of robots",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/acsaralegui/robofriends",
+    previewUrl: "https://acsaralegui.github.io/robofriends/",
   },
 ];
 
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="RoR"
+          isSelected={tag === "RoR"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="React"
+          isSelected={tag === "React"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
