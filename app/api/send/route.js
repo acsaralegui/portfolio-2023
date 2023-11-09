@@ -1,4 +1,4 @@
-//import { EmailTemplate } from '../../../components/EmailTemplate';
+import { EmailTemplate } from '../../../components/EmailTemplate';
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
@@ -11,7 +11,7 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: ["aaron.saralegui@gmail.com", email],
+      to: ["@gmail.com", email],
       subject: 'subject',
       react: (
           <>

@@ -4,11 +4,13 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ParticleBackground from "./ParticlesBackground";
 
 
 const HeroSection = () => {
   return (
     <section className="lg:py-24">
+      <ParticleBackground/>
      
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
